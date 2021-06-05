@@ -1,7 +1,7 @@
 {
   "version": 1,
   "cli": {
-    "defaultCollection": "@nrwl/angular",
+    "defaultCollection": "@ngrx/schematics",
     "packageManager": "yarn"
   },
   "defaultProject": "hausmeister",
@@ -49,10 +49,7 @@
             "polyfills": "apps/hausmeister/src/polyfills.ts",
             "tsConfig": "apps/hausmeister/tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "assets": [
-              "apps/hausmeister/src/favicon.ico",
-              "apps/hausmeister/src/assets"
-            ],
+            "assets": ["apps/hausmeister/src/favicon.ico", "apps/hausmeister/src/assets"],
             "styles": ["apps/hausmeister/src/styles.scss"],
             "scripts": []
           },
@@ -113,10 +110,7 @@
         "lint": {
           "builder": "@nrwl/linter:eslint",
           "options": {
-            "lintFilePatterns": [
-              "apps/hausmeister/src/**/*.ts",
-              "apps/hausmeister/src/**/*.html"
-            ]
+            "lintFilePatterns": ["apps/hausmeister/src/**/*.ts", "apps/hausmeister/src/**/*.html"]
           }
         },
         "test": {
