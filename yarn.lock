@@ -1749,6 +1749,11 @@
     optional "0.1.4"
     tslib "2.2.0"
 
+"@ngrx/schematics@12.0.0":
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/schematics/-/schematics-12.0.0.tgz#8cb38463a077640f24232074c26727ec4a57e920"
+  integrity sha512-fn++t/0K0rkJcqJUZ02ZpsP4kRZS0tAblGJrf/KlhK2HeaCArNwxq9cFReMvNLEsclCI4IsuJ0Hetylt8RolQg==
+
 "@ngtools/webpack@12.0.3":
   version "12.0.3"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-12.0.3.tgz#47fd9abffe96d554edf063eb252d4f2c06d834e1"
