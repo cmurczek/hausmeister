@@ -4,6 +4,11 @@
     "nrwl.angular-console",
     "esbenp.prettier-vscode",
     "firsttris.vscode-jest-runner",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "EditorConfig.EditorConfig",
+    "mrmlnc.vscode-scss",
+    "ms-vsliveshare.vsliveshare",
+    "VisualStudioExptTeam.vscodeintellicode"
   ]
 }
