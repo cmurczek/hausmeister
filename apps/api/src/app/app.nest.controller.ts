@@ -2,7 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 
 import { Message } from '@hausmeister/api-interfaces';
 
-import { AppService } from './app.service';
+import { AppService } from './app.nest.service';
 
 @Controller()
 export class AppController {

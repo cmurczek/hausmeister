@@ -4,5 +4,32 @@
   "scss.lint.important": "warning",
   "scss.lint.importStatement": "warning",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "vsicons.presets.angular": true,
+  "vsicons.presets.nestjs": true,
+  "vsicons.associations.files": [
+    {
+      "icon": "nest_module_ts",
+      "extensions": ["nest.module.ts"],
+      "format": "svg",
+      "overrides": "nest_module_ts"
+    },
+    {
+      "icon": "nest_service_ts",
+      "extensions": ["nest.service.ts"],
+      "format": "svg",
+      "overrides": "nest_service_ts"
+    },
+    {
+      "icon": "nest_controller_ts",
+      "extensions": ["nest.controller.ts"],
+      "format": "svg",
+      "overrides": "nest_controller_ts"
+    },
+    {
+      "icon": "ng_routing_ts",
+      "extensions": ["routing.module.ts"],
+      "format": "svg"
+    }
+  ]
 }
